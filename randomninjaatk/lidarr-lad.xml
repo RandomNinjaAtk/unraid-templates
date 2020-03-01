@@ -12,7 +12,7 @@
   <Support>https://forums.unraid.net/topic/89290-support-randomninjaatk-lidarr-lad/</Support>
   <Project>https://github.com/randomninjaatk/lidarr-lad</Project>
   <Category>Downloaders: MediaApp:Music</Category>
-  <TemplateURL>https://raw.githubusercontent.com/randomninjaatk/unraid-templates/master/randomninjaatk/lidarr-lad.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-lad.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
   <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. This comes bundled with Lidarr-Automated-Downloader script, that can be found here: https://github.com/RandomNinjaAtk/lidarr-automated-downloader</Overview>
   <Description>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. This comes bundled with Lidarr-Automated-Downloader script, that can be found here: https://github.com/RandomNinjaAtk/lidarr-automated-downloader</Description>
