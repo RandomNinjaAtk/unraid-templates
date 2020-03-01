@@ -9,7 +9,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-lad</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/</Support>
+  <Support>https://forums.unraid.net/topic/89290-support-randomninjaatk-lidarr-lad/</Support>
   <Project>https://github.com/randomninjaatk/lidarr-lad</Project>
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/randomninjaatk/unraid-templates/master/randomninjaatk/lidarr-lad.xml</TemplateURL>
