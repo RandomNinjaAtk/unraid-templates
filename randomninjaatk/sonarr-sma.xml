@@ -12,7 +12,7 @@
     <TagDescription>Sonarr V3 + SMA + vaapi HW acceleration</TagDescription>
   </Branch>
   <Branch>
-    <Tag>vaapi</Tag>
+    <Tag>nvidia</Tag>
     <TagDescription>Sonarr V3 + SMA + nvidia HW acceleration</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
