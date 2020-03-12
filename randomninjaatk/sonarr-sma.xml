@@ -5,15 +5,15 @@
   <Repository>randomninjaatk/sonarr-sma</Repository>
   <Branch>
     <Tag>latest</Tag>
-    <TagDescription>Sonarr V3 + SMA + Latest FFMPEG</TagDescription>
+    <TagDescription>Sonarr (V3) + SMA + FFMPEG</TagDescription>
   </Branch>
   <Branch>
     <Tag>vaapi</Tag>
-    <TagDescription>Sonarr V3 + SMA + Latest FFMPEG with vaapi HW acceleration</TagDescription>
+    <TagDescription>Sonarr (V3) + SMA + FFMPEG w/ vaapi</TagDescription>
   </Branch>
   <Branch>
     <Tag>nvidia</Tag>
-    <TagDescription>Sonarr V3 + SMA + Latest FFMPEG with nvidia HW acceleration</TagDescription>
+    <TagDescription>Sonarr (V3) + SMA + FFMPEG w/ nvidia</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
   <Shell>bash</Shell>
