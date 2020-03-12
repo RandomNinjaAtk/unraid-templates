@@ -8,8 +8,24 @@
     <TagDescription>Radarr Stable + SMA + Latest FFMPEG</TagDescription>
   </Branch>
   <Branch>
+    <Tag>latest-vaapi</Tag>
+    <TagDescription>Radarr Stable + SMA + Latest FFMPEG with vaapi HW accleration</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>latest-nvidia</Tag>
+    <TagDescription>Radarr Stable + SMA + Latest FFMPEG with nvidia HW accleration</TagDescription>
+  </Branch>
+  <Branch>
     <Tag>preview</Tag>
-    <TagDescription>Radarr Aphrodite + SMA + Latest FFMPEG</TagDescription>
+    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>preview-vaapi</Tag>
+    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG with vaapi HW accleration</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>preview-nvidia</Tag>
+    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG with nviida HW accleration</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/radarr-sma</Registry>
   <Shell>bash</Shell>
