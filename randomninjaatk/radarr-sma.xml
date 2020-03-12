@@ -9,11 +9,11 @@
   </Branch>
   <Branch>
     <Tag>latest-vaapi</Tag>
-    <TagDescription>Radarr + SMA + FFMPEG w/ vaapi HW support</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG w/ vaapi</TagDescription>
   </Branch>
   <Branch>
     <Tag>latest-nvidia</Tag>
-    <TagDescription>Radarr + SMA + FFMPEG w/ nvidia HW support</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG w/ nvidia</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview</Tag>
@@ -21,11 +21,11 @@
   </Branch>
   <Branch>
     <Tag>preview-vaapi</Tag>
-    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ vaapi HW support</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ vaapi</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview-nvidia</Tag>
-    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ nvidia HW support</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ nvidia</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/radarr-sma</Registry>
   <Shell>bash</Shell>
