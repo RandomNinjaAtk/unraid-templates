@@ -5,27 +5,27 @@
   <Repository>randomninjaatk/radarr-sma</Repository>
   <Branch>
     <Tag>latest</Tag>
-    <TagDescription>Radarr Stable + SMA + Latest FFMPEG</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG</TagDescription>
   </Branch>
   <Branch>
     <Tag>latest-vaapi</Tag>
-    <TagDescription>Radarr Stable + SMA + Latest FFMPEG with vaapi HW accleration</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG w/ vaapi HW support</TagDescription>
   </Branch>
   <Branch>
     <Tag>latest-nvidia</Tag>
-    <TagDescription>Radarr Stable + SMA + Latest FFMPEG with nvidia HW accleration</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG w/ nvidia HW support</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview</Tag>
-    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview-vaapi</Tag>
-    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG with vaapi HW accleration</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ vaapi HW support</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview-nvidia</Tag>
-    <TagDescription>Radarr Aphrodite (v3) + SMA + Latest FFMPEG with nvidia HW accleration</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG w/ nvidia HW support</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/radarr-sma</Registry>
   <Shell>bash</Shell>
