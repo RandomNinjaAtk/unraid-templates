@@ -37,6 +37,7 @@
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /dev/rtc" Target="/dev/rtc" Default="/dev/rtc" Mode="rw" Description="Container Path: /dev/rtc" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="SMA Update" Target="SMA_UPDATE" Default="false" Mode="" Description="true = enabled :: Update SMA on container startup" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
