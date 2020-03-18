@@ -13,8 +13,8 @@
   <Support>https://forums.unraid.net/topic/89926-support-randomninjaatk-sabnzbd-extended</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-sabnzbd-extended</Project>
   <Category>Downloaders: MediaApp:Video</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/sabnzbd-extended.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/img/sabnzbd-icon.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/sabnzbd-extended.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/sabnzbd-icon.png</Icon>
   <Overview>SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.[br]
   [br][br][b][span style='color: #E80000;']Important Paths:[/span][/u][/b]
   [b]/storage[/b] :: Root location for downloads, see additonal paths below
