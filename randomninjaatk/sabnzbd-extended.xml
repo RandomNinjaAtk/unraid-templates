@@ -16,18 +16,18 @@
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/sabnzbd-extended.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/img/sabnzbd-icon.png</Icon>
   <Overview>SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.[br]
-  [br][br][b][span style='color: #E80000;']Scripts included:[/span][/u][/b][br]
-  [b]audio-pp.bash[/b] :: Automatically clean up downloaded audio files and convert to standardized format if desired[br]
-  [b]radarr-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled[br]
-  [b]sonarr-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled[br]
-  [br][br][b][span style='color: #E80000;']Sickbeard MP4 Automater (SMA):[/span][/u][/b][br]
-  [b]Configuration Files Location:[/b] /config/scritps/configs[br]
-  [b]radarr-pp.ini[/b] :: SMA configuration for radarr-pp.bash[br] 
+  [br][br][b][span style='color: #E80000;']Scripts included:[/span][/u][/b]
+  [b]audio-pp.bash[/b] :: Automatically clean up downloaded audio files and convert to standardized format if desired
+  [b]radarr-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled
+  [b]sonarr-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled
+  [br][br][b][span style='color: #E80000;']Sickbeard MP4 Automater (SMA):[/span][/u][/b]
+  [b]Configuration Files Location:[/b] /config/scritps/configs
+  [b]radarr-pp.ini[/b] :: SMA configuration for radarr-pp.bash
   [b]sonarr-pp.ini[/b] :: SMA configuration for sonarr-pp.bash[br]
-  [b]Log Files Location:[/b] /config/scritps/logs[br]
-  [b]radarr-pp.log[/b] :: Log file for radarr-pp.bash[br] 
+  [b]Log Files Location:[/b] /config/scritps/logs
+  [b]radarr-pp.log[/b] :: Log file for radarr-pp.bash
   [b]sonarr-pp.log[/b] :: Log file for sonarr-pp.bash[br]
-  For more detail configuration info, visit: https://github.com/mdhiggins/sickbeard_mp4_automator[br]
+  For more detailed configuration info, visit: https://github.com/mdhiggins/sickbeard_mp4_automator
   [br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)
   </Overview>
   <Description>SABnzbd-Extended: This continer includes SABnzbd along with a set of post-processing scripts to enhance your SABnzbd usage</Description>
