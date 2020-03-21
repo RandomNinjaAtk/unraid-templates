@@ -79,9 +79,9 @@
   <Config Name="SMA: Subtitle: encoding" Target="SUBTITLE_ENCODING" Default="" Mode="" Description="Subtitle encoding format" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Subtitle: burn-subtitles" Target="SUBTITLE_BURN_SUBTITLES" Default="" Mode="" Description="Base" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Subtitle: embed-subs" Target="SUBTITLE_EMBED_SUBS" Default="True" Mode="" Description=" 	Embeds text based subtitles in the output video. External subtitles in the same directory will embedded. If false subtitles will be extracted" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="SMA: Plex: chmod" Target="PLEX_HOST" Default="localhost" Mode="" Description="Host" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="SMA: Plex: chmod" Target="PLEX_PORT" Default="32400" Mode="" Description="Port" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="SMA: Plex: chmod" Target="PLEX_REFRESH" Default="False" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="SMA: Plex: host" Target="PLEX_HOST" Default="localhost" Mode="" Description="Host" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="SMA: Plex: port" Target="PLEX_PORT" Default="32400" Mode="" Description="Port" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="SMA: Plex: refresh" Target="PLEX_REFRESH" Default="False" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Plex: token" Target="PLEX_TOKEN" Default="" Mode="" Description="Plex Home Token" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
