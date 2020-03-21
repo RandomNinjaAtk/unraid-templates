@@ -33,7 +33,7 @@
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /dev/rtc" Target="/dev/rtc" Default="/dev/rtc" Mode="rw" Description="Container Path: /dev/rtc" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="SMA Update" Target="UPDATE_SMA" Default="false" Mode="" Description="true = enabled :: Update SMA on container startup" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="SMA Update" Target="UPDATE_SMA" Default="FALSE" Mode="" Description="TRUE = enabled :: Update SMA on container startup" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Converter: threads" Target="CONVERTER_THREADS" Default="0" Mode="" Description="FFMpeg threads, corresponds to threads parameter" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Converter: output-format" Target="CONVERTER_OUTPUT_EXTENSION" Default="mp4" Mode="" Description="Wrapped format corresponding to -f in FFmpeg" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="SMA: Converter: output-extension" Target="CONVERTER_OUTPUT_EXTENSION" Default="mp4" Mode="" Description="File extension for created media" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
