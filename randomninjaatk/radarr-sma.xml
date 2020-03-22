@@ -15,6 +15,7 @@
     <Tag>preview</Tag>
     <TagDescription>Radarr (v3) + SMA + FFMPEG (vaapi)</TagDescription>
   </Branch>
+  <Branch>
     <Tag>preview-nvidia</Tag>
     <TagDescription>Radarr (v3) + SMA + FFMPEG (nvidia)</TagDescription>
   </Branch>
