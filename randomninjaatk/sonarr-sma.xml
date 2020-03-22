@@ -9,7 +9,7 @@
   </Branch>
   <Branch>
     <Tag>nvidia</Tag>
-    <TagDescription>Sonarr (V3) + SMA + FFMPEG w/ nvidia</TagDescription>
+    <TagDescription>Sonarr (V3) + SMA + FFMPEG (nvidia)</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
   <Shell>bash</Shell>
