@@ -22,7 +22,7 @@
   [b]/storage/downloads/sabnzbd/complete[/b] :: Automatically created on setup
   [b]/config[/b] :: Location of SABnzbd aplication files
   [b]/config/scripts[/b] :: Location of SABnzbd post process script files (automatically mapped in SABnzbd)
-  [b]/config/scripts/sma[/b] :: Location of SMA log files
+  [b]/config/scripts/logs[/b] :: Location of SMA log files
   [br][br][b][span style='color: #E80000;']Important SABNzbd Categories:[/span][/u][/b]
   [b]lidarr[/b] :: Automatically configured to post process using [b]audio-pp.bash[/b]
   [b]radarr[/b] :: Automatically configured to post process using [b]video-pp.bash[/b]
@@ -31,7 +31,7 @@
   [b]audio-pp.bash[/b] :: Automatically clean up downloaded audio files and convert to standardized format if desired
   [b]video-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled
   [br][br][b][span style='color: #E80000;']Sickbeard MP4 Automater (SMA):[/span][/u][/b]
-  [b]Log Files Location:[/b] /config/scritps/sma
+  [b]Log Files Location:[/b] /config/scritps/logs
   [b]sma.log[/b] :: Log file for SMA
   For more detailed configuration info, visit: https://github.com/mdhiggins/sickbeard_mp4_automator
   [br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)
