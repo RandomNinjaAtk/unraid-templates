@@ -16,7 +16,14 @@
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-lad.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
   <Overview>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. This comes bundled with Lidarr-Automated-Downloader script, that can be found here: https://github.com/RandomNinjaAtk/lidarr-automated-downloader</Overview>
-  <Description>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them.</Description>
+  <Description>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them.
+  [br][br][b][span style='color: #E80000;']Important Paths:[/span][/u][/b]
+  [b]/storage[/b] :: Root location for downloads, see additonal paths below
+  [b]/storage/downloads/lidarr/deezloaderremix[/b] :: Temporary DL location from dl client
+  [b]/storage/downloads/lidarr/lidarr-import[/b] :: Directory used for importing to Lidarr automatically
+  [b]/config[/b] :: Location of SABnzbd aplication files
+  [b]/config/scripts[/b] :: Location of LAD scripts files and logs
+  </Description>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
@@ -27,8 +34,7 @@
   <Network>bridge</Network>
   <Config Name="Host Port for 8686" Target="8686" Default="8686" Mode="tcp" Description="Container Port: 8686" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /downloads" Target="/downloads" Default="" Mode="rw" Description="Container Path: /downloads (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /music" Target="/music" Default="" Mode="rw" Description="Container Path: /music" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Container Path: /storage (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="LAD: Download Method" Target="downloadmethod" Default="album" Mode="" Description="SET TO: album or track :: album method will fallback to track method if it runs into an issue" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Download Qualtiy fallback" Target="enablefallback" Default="true" Mode="" Description="true = enabled :: enables fallback to lower quality if required..." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Verify Track Count" Target="VerifyTrackCount" Default="true" Mode="" Description="true = enabled :: This will verify album track count vs dl track count, if tracks are found missing, it will skip import..." Type="Variable" Display="always" Required="true" Mask="false"/>
