@@ -15,8 +15,8 @@
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-lad.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
-  <Overview>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. This comes bundled with Lidarr-Automated-Downloader script, that can be found here: https://github.com/RandomNinjaAtk/lidarr-automated-downloader</Overview>
-  <Description>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them.
+  <Description>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. This comes bundled with Lidarr-Automated-Downloader script, that can be found here: https://github.com/RandomNinjaAtk/lidarr-automated-downloader</Description>
+  <Overview>Lidarr + Lidarr Automated Downloader (LAD), Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them.
   [br][br][b][span style='color: #E80000;']Important Paths:[/span][/u][/b]
   [b]/storage[/b] :: Root location for downloads, see additonal paths below
   [b]/storage/downloads/lidarr/deezloaderremix[/b] :: Temporary DL location from dl client
@@ -32,7 +32,7 @@
   [b]/config/scripts/download.log[/b] :: Log file containing list of albums that were downloaded, automatically cleared every Saturday via cron
   [b]/config/scripts/beets-config.yaml[/b] :: Beet config file for matching
   [b]/config/scripts/beets-library.blb[/b] :: Beet library file, do not touch
-  </Description>
+  </Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
