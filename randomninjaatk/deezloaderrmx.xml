@@ -9,8 +9,8 @@
   <Support>https://www.github.com/bocki/deezloaderrmx</Support>
   <Project>https://notabug.org/RemixDevs/DeezloaderRemix</Project>
   <Category>Downloaders: MediaApp:Music</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/deezloadermx-docker.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/img/deezloaderrmx.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/deezloaderrmx.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/deezloaderrmx.png</Icon>
   <Description>Deezloader Remix in a Docker container.</Description>
   <Overview>Deezloader Remix in a Docker container.</Overview>
   <MyIP/>
