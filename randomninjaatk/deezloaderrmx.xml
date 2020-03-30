@@ -2,7 +2,7 @@
 <Container version="2">
   <Beta>False</Beta>
   <Name>deezloadermx</Name>
-  <Repository>bocki/deezloaderrmx</Repository>
+  <Repository>bocki/deezloaderrmx:dev</Repository>
   <Registry>https://hub.docker.com/r/bocki/deezloaderrmx</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
