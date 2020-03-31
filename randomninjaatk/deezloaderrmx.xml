@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/bocki/deezloaderrmx</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://www.github.com/bocki/deezloaderrmx</Support>
+  <Support>https://github.com/Bockiii/deezloadermx-docker</Support>
   <Project>https://notabug.org/RemixDevs/DeezloaderRemix</Project>
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/deezloaderrmx.xml</TemplateURL>
