@@ -3,14 +3,6 @@
   <Beta>True</Beta>
   <Name>sonarr-sma</Name>
   <Repository>randomninjaatk/sonarr-sma</Repository>
-  <Branch>
-    <Tag>latest</Tag>
-    <TagDescription>Sonarr (V3) + SMA + FFMPEG (vaapi)</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>nvidia</Tag>
-    <TagDescription>Sonarr (V3) + SMA + FFMPEG (nvidia)</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
