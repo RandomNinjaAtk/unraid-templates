@@ -3,10 +3,6 @@
   <Beta>True</Beta>
   <Name>lidarr-lad</Name>
   <Repository>randomninjaatk/lidarr-lad</Repository>
-  <Branch>
-    <Tag>latest</Tag>
-    <TagDescription>nightly</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-lad</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
