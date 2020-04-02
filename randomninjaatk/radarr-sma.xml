@@ -5,19 +5,11 @@
   <Repository>randomninjaatk/radarr-sma</Repository>
   <Branch>
     <Tag>latest</Tag>
-    <TagDescription>Radarr + SMA + FFMPEG (vaapi)</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>latest-nvidia</Tag>
-    <TagDescription>Radarr + SMA + FFMPEG (nvidia)</TagDescription>
+    <TagDescription>Radarr + SMA + FFMPEG</TagDescription>
   </Branch>
   <Branch>
     <Tag>preview</Tag>
-    <TagDescription>Radarr (v3) + SMA + FFMPEG (vaapi)</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>preview-nvidia</Tag>
-    <TagDescription>Radarr (v3) + SMA + FFMPEG (nvidia)</TagDescription>
+    <TagDescription>Radarr (v3) + SMA + FFMPEG</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/radarr-sma</Registry>
   <Shell>bash</Shell>
