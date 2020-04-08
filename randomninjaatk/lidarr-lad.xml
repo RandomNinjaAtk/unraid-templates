@@ -28,6 +28,8 @@
   [b]/config/scripts/download.log[/b] :: Log file containing list of albums that were downloaded, automatically cleared every Saturday via cron
   [b]/config/scripts/beets-config.yaml[/b] :: Beet config file for matching
   [b]/config/scripts/beets-library.blb[/b] :: Beet library file, do not touch
+  [br][br][b][span style='color: #E80000;']DL Client Information[/span][/u][/b]
+  [b]DL Client ARL Token[/b] :: This token will expire every 3 months, without a token this script will not function...
   </Overview>
   <MyIP/>
   <DonateText/>
