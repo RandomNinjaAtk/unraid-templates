@@ -19,6 +19,7 @@
   [b]/config[/b] :: Location of SABnzbd aplication files
   [b]/config/scripts[/b] :: Location of SABnzbd post process script files (automatically mapped in SABnzbd)
   [b]/config/scripts/logs[/b] :: Location of SMA log files
+  [b]/config/scripts/configs[/b] :: Location of SMA config files
   [br][br][b][span style='color: #E80000;']Important SABNzbd Categories:[/span][/u][/b]
   [b]lidarr[/b] :: Automatically configured to post process using [b]audio-pp.bash[/b]
   [b]radarr[/b] :: Automatically configured to post process using [b]video-pp.bash[/b]
