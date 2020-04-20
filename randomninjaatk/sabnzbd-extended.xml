@@ -28,7 +28,9 @@
   [b]video-pp.bash[/b] :: Verify incoming video files for required audio/subtitle languages and process with SMA if enabled
   [b]beets-config.yaml[/b] :: Beets matching configuration file
   [br][br][b][span style='color: #E80000;']Sickbeard MP4 Automater (SMA):[/span][/u][/b]
-  [b]Log Files Location:[/b] /config/scritps/logs
+  [b]Config Files Location:[/b] /config/scripts/configs
+  [b]autoProcess.ini[/b] :: config file for SMA
+  [b]Log Files Location:[/b] /config/scripts/logs
   [b]sma.log[/b] :: Log file for SMA
   For more detailed configuration info, visit: https://github.com/mdhiggins/sickbeard_mp4_automator
   [br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)
