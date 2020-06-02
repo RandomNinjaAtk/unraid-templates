@@ -9,7 +9,7 @@
   <Support>https://github.com/RandomNinjaAtk/docker-skyscraper</Support>
   <Project>https://github.com/muldjord/skyscraper</Project>
   <Category>MediaApp:Music</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/picard.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/skyscraper.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/picard.png</Icon>
   <Description>Picard is a cross-platform music tagger written in Python.</Description>
   <Overview>Picard is a cross-platform music tagger written in Python.</Overview>
