@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>rdesktop</Name>
+  <Repository>linuxserver/rdesktop</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/rdesktop</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/linuxserver/docker-rdesktop</Support>
+  <Project>https://github.com/linuxserver/docker-rdesktop</Project>
+  <Category>Productivity</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/rdesktop.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png/Icon>
+  <Description>Rdesktop - Ubuntu based containers containing full desktop environments in officially supported flavors accessible via RDP.</Description>
+  <Overview>Rdesktop - Ubuntu based containers containing full desktop environments in officially supported flavors accessible via RDP.</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink></DonateLink>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 3389" Target="3389" Default="3389" Mode="tcp" Description="Container Port: 3389" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
