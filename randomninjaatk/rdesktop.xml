@@ -10,7 +10,7 @@
   <Project>https://github.com/linuxserver/docker-rdesktop</Project>
   <Category>Productivity</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/rdesktop.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png/Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png</Icon>
   <Description>Rdesktop - Ubuntu based containers containing full desktop environments in officially supported flavors accessible via RDP.</Description>
   <Overview>Rdesktop - Ubuntu based containers containing full desktop environments in officially supported flavors accessible via RDP.</Overview>
   <MyIP/>
