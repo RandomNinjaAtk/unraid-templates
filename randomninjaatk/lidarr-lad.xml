@@ -42,6 +42,7 @@
   <Config Name="Host Port for 8686" Target="8686" Default="8686" Mode="tcp" Description="Container Port: 8686" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="LAD: Music Videos Path" Target="VIDEOPATH" Default="" Mode="" Description="Location of music videos" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Script Update" Target="UPDATE_LAD" Default="FALSE" Mode="" Description="TRUE = Enabled :: updates LAD script from repo on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: DL Client Update" Target="UPDATE_DLCLIENT" Default="TRUE" Mode="" Description="TRUE = Enabled :: updates DL Client application from repo on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Enable Automatic LAD Runs" Target="ENABLE_LAD" Default="TRUE" Mode="" Description="TRUE = Enabled :: Runs LAD script automatically every 15 minutes via cronjob" Type="Variable" Display="always" Required="true" Mask="false"/>
@@ -60,7 +61,9 @@
   <Config Name="LAD: Tag with Beets" Target="TagWithBeets" Default="true" Mode="" Description="true = enabled :: enable beet tagging to improve matching accuracy" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Tag with Require Beets Match" Target="RequireBeetsMatch" Default="true" Mode="" Description="true = enabled :: skips importing files that could not be matched using beets" Type="Variable" Display="always" Required="true" Mask="false"/>  
   <Config Name="LAD: Require Quality Match" Target="RequireQuality" Default="false" Mode="" Description="true = enabled :: skips importing files that do not match quality setting" Type="Variable" Display="always" Required="true" Mask="false"/>  
+  <Config Name="LAD: Download Music Videos" Target="MVIDEOS" Default="false" Mode="" Description="true = enabled :: downloads music videos from youtube (requires videos to be added with URL's on Musicbrianz DB" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="LAD: Musicbrainz Mirror URL" Target="MBRAINZMIRROR" Default="http://musicbrainz.org" Mode="" Description="OPTIONAL: Only change if using a different mirror" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="LAD: Musicbrainz Rate Limit" Target="MBRATELIMIT" Default="1" Mode="" Description="OPTIONAL: Only change if using a different mirror" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="LAD: LidarrUrl" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="ONLY modify needed if utilizing Lidarr URL Base setting..." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
