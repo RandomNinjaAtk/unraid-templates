@@ -28,6 +28,7 @@
   [b]/config/scripts/download.log[/b] :: Log file containing list of albums that were downloaded, automatically cleared every Saturday via cron
   [b]/config/scripts/beets-config.yaml[/b] :: Beet config file for matching
   [b]/config/scripts/beets-library.blb[/b] :: Beet library file, do not touch
+  [b]/config/scripts/cookies.txt[/b] :: OPTIONAL :: Add this file, if you need youtube-dl authentication to youtube, may be required if you experience throttling...
   [br][br][b][span style='color: #E80000;']DL Client Information[/span][/u][/b]
   [b]DL Client ARL Token[/b] :: This token will expire every 3 months, without a token this script will not function...
   </Overview>
@@ -65,6 +66,8 @@
   <Config Name="LAD: Require Quality Match" Target="RequireQuality" Default="false" Mode="" Description="true = enabled :: skips importing files that do not match quality setting" Type="Variable" Display="always" Required="true" Mask="false"/>  
   <Config Name="LAD: Music Videos Country Code" Target="CountryCode" Default="us" Mode="" Description="Set the country code for preferred video matching, uses Musicbrainz Country Codes, lowercase only." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Music Videos Require Match" Target="RequireVideoMatch" Default="true" Mode="" Description="true = enabled :: Only keep videos that could be matched to a Musicbrainz music track." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="LAD: Music Videos Format" Target="videoformat" Default="--format bestvideo[vcodec!*=av01]+bestaudio[ext=m4a]" Mode="" Description="For guidence, please see youtube-dl documentation" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="LAD: Music Videos Filter Match" Target="videofilter" Default="live" Mode="" Description="This will filter out videos Matching MusicBrainz secondary release type and album disambiguation (single word only)" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="LAD: Musicbrainz Mirror URL" Target="MBRAINZMIRROR" Default="http://musicbrainz.org" Mode="" Description="OPTIONAL: Only change if using a different mirror" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="LAD: Musicbrainz Rate Limit" Target="MBRATELIMIT" Default="1" Mode="" Description="OPTIONAL: musicbrainz rate limit, musicbrainz allows only 1 connection per second, max setting is 10" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="LAD: LidarrUrl" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="ONLY modify needed if utilizing Lidarr URL Base setting..." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
