@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>Skyscraper</Name>
+  <Repository>randomninjaatk/ama</Repository>
+  <Registry>https://hub.docker.com/r/randomninjaatk/ama</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/RandomNinjaAtk/docker-ama</Support>
+  <Project>https://github.com/RandomNinjaAtk/docker-ama</Project>
+  <Category>MediaApp:Music</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/ama.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/picard.png</Icon>
+  <Description>Picard is a cross-platform music tagger written in Python.</Description>
+  <Overview>Picard is a cross-platform music tagger written in Python.</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink></DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
