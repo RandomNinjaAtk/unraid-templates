@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Beta>True</Beta>
-  <Name>Skyscraper</Name>
+  <Name>ama</Name>
   <Repository>randomninjaatk/ama</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/ama</Registry>
   <Shell>bash</Shell>
