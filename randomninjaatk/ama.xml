@@ -30,6 +30,9 @@
   <Config Name="Format" Target="FORMAT" Default="AAC" Mode="" Description="SET TO: AAC or ALAC" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Folder Permissions" Target="FolderPermissions" Default="777" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="File Permissions" Target="FilePermissions" Default="666" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr List Import" Target="LidarrListImport" Default="false" Mode="" Description="true = enabled :: imports artist list from lidarr" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Url" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LidarrAPIkey" Default="" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
