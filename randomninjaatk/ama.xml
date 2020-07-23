@@ -11,8 +11,8 @@
   <Category>MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/ama.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/picard.png</Icon>
-  <Description>Picard is a cross-platform music tagger written in Python.</Description>
-  <Overview>Picard is a cross-platform music tagger written in Python.</Overview>
+  <Description>Automated Music Archiver :: This script will automatically archive music using a popular online DL Client</Description>
+  <Overview>Automated Music Archiver :: This script will automatically archive music using a popular online DL Client</Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink></DonateLink>
