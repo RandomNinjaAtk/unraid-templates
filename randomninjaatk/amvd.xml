@@ -22,8 +22,8 @@
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Music Library Location" Target="LIBRARY" Default="/storage/media/music" Mode="" Description="Destination location for downloaded files" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /storage" Target="/mnt/user" Default="/mnt/user" Mode="rw" Description="Container Path" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Music Video Library Location" Target="LIBRARY" Default="/mnt/user/media/musicvideos" Mode="" Description="Destination location for downloaded files" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Enable Automatic Script Start" Target="AUTOSTART" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>  <Config Name="Number of Concurrent Processes" Target="NumberConcurrentProcess" Default="3" Mode="" Description="Number of concurrent processes, controls download concurrency and encoding/tagging concurrency" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Lidarr List Import" Target="LidarrListImport" Default="false" Mode="" Description="true = enabled :: imports artist list from lidarr" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Lidarr Url" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
