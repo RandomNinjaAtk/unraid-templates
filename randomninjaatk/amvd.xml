@@ -9,7 +9,7 @@
   <Support>https://github.com/RandomNinjaAtk/docker-amvd</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-amvd</Project>
   <Category>MediaApp:Music</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/ama.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/amvd.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/picard.png</Icon>
   <Description>Automated Music Video Downloader :: This script will automatically download music videos for your Lidarr artist library</Description>
   <Overview>Automated Music Video Downloader :: This script will automatically download music videos for your Lidarr artist library</Overview>
