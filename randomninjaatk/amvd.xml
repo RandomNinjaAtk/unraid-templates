@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>True</Beta>
+  <Beta>False</Beta>
   <Name>amvd</Name>
   <Repository>randomninjaatk/amvd</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/amvd</Registry>
