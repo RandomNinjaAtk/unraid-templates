@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>amd</Name>
+  <Repository>randomninjaatk/amd</Repository>
+  <Registry>https://hub.docker.com/r/randomninjaatk/amd</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/RandomNinjaAtk/docker-amd</Support>
+  <Project>https://github.com/RandomNinjaAtk/docker-amd</Project>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/amd.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/amvd.png</Icon>
+  <Description>Automated Music Downloader :: AMD is a Lidarr Companion script to automatically download and tag music files for use in various media applications</Description>
+  <Overview>Automated Music Downloader :: AMD is a Lidarr Companion script to automatically download and tag music files for use in various media applications</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /mnt/user" Target="/mnt/user" Default="/mnt/user" Mode="rw" Description="Container Path" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Music Library Location" Target="LIBRARY" Default="/mnt/user/media/music" Mode="" Description="Destination location for downloaded files" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Enable Automatic Script Start" Target="AUTOSTART" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Url" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="Set domain or IP to your Lidarr instance including port. If using reverse proxy, do not use a trailing slash. Ensure you specify http/s." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LidarrAPIkey" Default="" Mode="" Description="Lidarr API key" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Musicbrainz Mirror URL" Target="MBRAINZMIRROR" Default="https://musicbrainz.org" Mode="" Description="OPTIONAL: Only change if using a different mirror" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="Musicbrainz Rate Limit" Target="MBRATELIMIT" Default="1" Mode="" Description="OPTIONAL: musicbrainz rate limit, musicbrainz allows only 1 connection per second, max setting is 10" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="Music File Permissions" Target="FilePermissions" Default="666" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
