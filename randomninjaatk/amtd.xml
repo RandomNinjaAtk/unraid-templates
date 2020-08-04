@@ -13,8 +13,7 @@
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/amtd.png</Icon>
   <Description>Automated Movie Trailer Downloader :: AMTD is a Radarr Companion script to automatically download movie trailers for use in media applications</Description>
   <Overview>Automated Movie Trailer Downloader :: AMTD is a Radarr Companion script to automatically download movie trailers for use in media applications
-  [br][br][b][span style='color: #E80000;']!!!Important!!![/span][/u][/b]
-  You must add a volume that matches your Radarr's volume mappings associated with the Radarr's Library Root Folders
+  [br][br][b][span style='color: #E80000;']!!!Important!!![/span][/u][/b] :: [b]You must add a volume that matches your Radarr's volume mappings associated with Radarr's Library Root Folders[/b]
   </Overview>
   <MyIP/>
   <DonateText/>
