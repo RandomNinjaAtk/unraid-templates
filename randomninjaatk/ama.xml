@@ -22,8 +22,7 @@
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage (DO NOT DELETE)" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Music Library Location" Target="LIBRARY" Default="/storage/media/music" Mode="" Description="Destination location for downloaded files" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads-ama" Target="/downloads-ama" Default="/mnt/user" Mode="rw" Description="Container Path for downloads library..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Enable Automatic Script Start" Target="AUTOSTART" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>  <Config Name="Number of Concurrent Processes" Target="NumberConcurrentProcess" Default="3" Mode="" Description="Number of concurrent processes, controls download concurrency and encoding/tagging concurrency" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="DL Client ARL Token" Target="ARL_TOKEN" Default="" Mode="" Description="User token for dl client, for instructions to obtain token: https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Related Artist" Target="RELATED_ARTIST" Default="false" Mode="" Description="true = enabled :: Enabling this lets the script crawl your artist list for related artists and process them" Type="Variable" Display="always" Required="true" Mask="false"/>
