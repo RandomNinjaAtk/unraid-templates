@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/amvd</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/RandomNinjaAtk/docker-amvd</Support>
+  <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-amvd</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/amvd.xml</TemplateURL>
