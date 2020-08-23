@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/amd</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/RandomNinjaAtk/docker-amd</Support>
+  <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-amd</Project>
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/amd.xml</TemplateURL>
