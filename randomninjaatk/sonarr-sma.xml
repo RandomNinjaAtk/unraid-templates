@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/89667-support-randomninjaatk-sonarr-sma</Support>
+  <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-sonarr-sma</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/sonarr-sma.xml</TemplateURL>
