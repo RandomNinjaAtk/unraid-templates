@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>ama</Name>
+  <Repository>randomninjaatk/ama</Repository>
+  <Registry>https://hub.docker.com/r/randomninjaatk/ama</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/RandomNinjaAtk/docker-ama</Support>
+  <Project>https://github.com/RandomNinjaAtk/docker-ama</Project>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/ama.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/ama.png</Icon>
+  <Description>Automated Music Archiver :: This script will automatically archive music using a popular online DL Client</Description>
+  <Overview>Automated Music Archiver :: This script will automatically archive music using a popular online DL Client</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads-ama" Target="/downloads-ama" Default="/mnt/user" Mode="rw" Description="Container Path for downloads library..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Enable Automatic Script Start" Target="AUTOSTART" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>  <Config Name="Number of Concurrent Processes" Target="NumberConcurrentProcess" Default="3" Mode="" Description="Number of concurrent processes, controls download concurrency and encoding/tagging concurrency" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DL Client ARL Token" Target="ARL_TOKEN" Default="" Mode="" Description="User token for dl client, for instructions to obtain token: https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Related Artist" Target="RELATED_ARTIST" Default="false" Mode="" Description="true = enabled :: Enabling this lets the script crawl your artist list for related artists and process them" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Related Artist -> Related Artist (loop)" Target="RELATED_ARTIST_RELATED" Default="false" Mode="" Description="true = enabled :: Enabling this lets the script crawl your related artists for additional related artists and process them accordingly :: WARNING this will cause an endless loop (spider crawling) until no more are found..." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Format" Target="FORMAT" Default="FLAC" Mode="" Description="SET TO: ALAC or FLAC or AAC or MP3 or OPUS" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Conversion Bitrate" Target="ConversionBitrate" Default="320" Mode="" Description="FLAC -> OPUS/AAC/MP3 will be converted using this bitrate" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Number of Concurrent Processes" Target="NumberConcurrentProcess" Default="1" Mode="" Description="Number of concurrent processes, controls download concurrency and encoding/tagging concurrency" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Folder Permissions" Target="FolderPermissions" Default="777" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="File Permissions" Target="FilePermissions" Default="666" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Music Replaygain Tagging" Target="replaygain" Default="false" Mode="" Description="true = enabled :: Scans and analyzes files to add replaygain tags to song metadata" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Remove Artsit Without Image" Target="RemoveArtistWithoutImage" Default="false" Mode="" Description="true = enabled :: Enabling this will cleanup and remove artist folders that don't contain a unique artist image" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Remove Duplicates" Target="RemoveDuplicates" Default="false" Mode="" Description="true = enabled :: Eanabling this will remove duplicate clean and duplicate non-deluxe-clean versions of albums/singles/ep" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Complete My Artists" Target="CompleteMyArtists" Default="false" Mode="" Description="true = enabled :: Eanabling this will add artist id's found in the library directory that are currently not in your list. This will then allow the script archive them accordingly :: !!!WARNING!!! Could cause an endless loop!" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr List Import" Target="LidarrListImport" Default="false" Mode="" Description="true = enabled :: imports artist list from lidarr" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Url" Target="LidarrUrl" Default="http://127.0.0.1:8686" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LidarrAPIkey" Default="" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
