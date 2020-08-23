@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/sabnzbd-extended</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/89926-support-randomninjaatk-sabnzbd-extended</Support>
+  <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-sabnzbd-extended</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/sabnzbd-extended.xml</TemplateURL>
