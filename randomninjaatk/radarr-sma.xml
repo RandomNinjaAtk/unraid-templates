@@ -14,7 +14,7 @@
   <Registry>https://hub.docker.com/r/randomninjaatk/radarr-sma</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/89707-support-randomninjaatk-radarr-sma</Support>
+  <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-radarr-sma</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/radarr-sma.xml</TemplateURL>
