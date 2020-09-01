@@ -30,8 +30,10 @@
   <Config Name="Radarr Extras Type" Target="extrastype" Default="all" Mode="" Description="all or trailers :: all downloads all available videos (trailers, clips, featurettes, etc...) :: trailers only downloads trailers" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Radarr Trailer Format" Target="videoformat" Default="--format bestvideo[vcodec*=avc1]+bestaudio[ext=m4a]" Mode="" Description="For guidence, please see youtube-dl documentation" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Radarr Trailer Subtitle Langauge" Target="subtitlelanguage" Default="en" Mode="" Description="Desired Language Code :: For guidence, please see youtube-dl documentation" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Radarr Trailer File Permissions" Target="FilePermissions" Default="666" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Radarr Trailer Folder Permissions" Target="FolderPermissions" Default="766" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Single Trailer" Target="SINGLETRAILER" Default="true" Mode="" Description="true = enabled :: Only downloads the first available trailer, does not apply to other extras type" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Use Folders" Target="USEFOLDERS" Default="false" Mode="" Description="true = enabled :: Creates subfolders within the movie folder for extras" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Trailer File Permissions" Target="FilePermissions" Default="644" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Trailer Folder Permissions" Target="FolderPermissions" Default="755" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="USER_ID" Target="USER_ID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
