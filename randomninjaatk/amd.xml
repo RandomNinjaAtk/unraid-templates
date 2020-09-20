@@ -47,6 +47,6 @@
   <Config Name="Plex Library Name" Target="PLEXLIBRARYNAME" Default="Music" Mode="" Description="This must exactly match the name of the Plex Library that contains the Lidarr Media Folder data" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Plex Url" Target="PLEXURL" Default="http://x.x.x.x:32400" Mode="" Description="ONLY used if NOTIFYPLEX is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Plex Token" Target="PLEXTOKEN" Default="" Mode="" Description="ONLY used if NOTIFYPLEX is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
