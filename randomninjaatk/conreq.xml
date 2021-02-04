@@ -10,7 +10,7 @@
   <Project>https://github.com/Archmonger/Conreq</Project>
   <Category>Downloaders, Network:Other, MediaApp:Video, Tools:Utilities</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/conreq.xml</TemplateURL>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/conreq.png<</Icon>
   <Description>Conreq is a self-hosted web application that allows users to request content for Radarr/Sonarr.</Description>
   <Overview>Conreq is a self-hosted web application that allows users to request content for Radarr/Sonarr.</Overview>
   <MyIP/>
