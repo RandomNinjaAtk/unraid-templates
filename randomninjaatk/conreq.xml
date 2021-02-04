@@ -15,7 +15,7 @@
   <Overview>Conreq is a self-hosted web application that allows users to request content for Radarr/Sonarr.</Overview>
   <MyIP/>
   <DonateText/>
-  <DonateLink></DonateLink>
+  <DonateLink/>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <ExtraParams/>
