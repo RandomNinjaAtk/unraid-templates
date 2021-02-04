@@ -2,7 +2,7 @@
 <Container version="2">
   <Beta>True</Beta>
   <Name>conreq</Name>
-  <Repository>randomninjaatk/conreq</Repository>
+  <Repository>roxedus/conreq</Repository>
   <Registry>https://hub.docker.com/r/roxedus/conreq</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
