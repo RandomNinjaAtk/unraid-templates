@@ -22,12 +22,12 @@
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /downloads-ambd" Target="/downloads-ambd" Default="/mnt/user" Mode="rw" Description="Container Path for downloads library..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads-ambd" Target="/downloads-ambd" Default="/mnt/user" Mode="rw" Description="Container Path for downloads..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /library" Target="/library" Default="/mnt/user" Mode="rw" Description="Container Path for completed library..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Enable Automatic Script Start" Target="AUTOSTART" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Script Interval" Target="SCRIPTINTERVAL" Default="15m" Mode="" Description="#s or #m or #h or #d :: s = seconds, m = minutes, h = hours, d = days :: Amount of time between each script run, when AUTOSTART is enabled" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="DL Client ARL Token" Target="ARL_TOKEN" Default="" Mode="" Description="User token for dl client, for instructions to obtain token: https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Format" Target="QUALITY" Default="QUALITY" Mode="" Description="SET TO: FLAC or 320 or 128" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Nae="Conversion Bitrate" Target="BITRATE" Default="320" Mode="" Description="FLAC -> OPUS/AAC/MP3 will be converted using this bitrate" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Music Embedded Cover Quality" Target="EMBEDDED_COVER_QUALITY" Default="95" Mode="" Description="Controls the quality of the cover image compression in percentage, 100 = no compression" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Download Concurrency" Target="CONCURRENT_DOWNLOADS" Default="1" Mode="" Description="Controls download concurrency" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Folder Permissions" Target="FOLDER_PERMISSIONS" Default="766" Mode="" Description="Based on chmod linux permissions" Type="Variable" Display="always" Required="true" Mask="false"/>
