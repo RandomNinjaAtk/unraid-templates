@@ -37,7 +37,7 @@
   <DonateText/>
   <DonateLink>https://github.com/sponsors/jasongdove</DonateLink>
   <DonateImg/>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8409]</WebUI>
   <ExtraParams/>
   <PostArgs/>
   <Network>host</Network>
