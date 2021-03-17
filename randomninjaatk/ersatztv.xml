@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>ErsatzTV</Name>
+  <Repository>jasongdove/ersatztv</Repository>
+  <Registry>https://hub.docker.com/r/jasongdove/ersatztv</Registry>
+	<Branch>
+    <Tag>latest</Tag>
+    <TagDescription>latest release</TagDescription>
+  </Branch>
+	<Branch>
+    <Tag>latest-vaapi</Tag>
+    <TagDescription>latest release + vaapi</TagDescription>
+  </Branch>
+	<Branch>
+    <Tag>latest-nvidia</Tag>
+    <TagDescription>latest release + nvidia</TagDescription>
+  </Branch>
+	<Branch>
+    <Tag>develop-vaapi</Tag>
+    <TagDescription>develop release + vaapi</TagDescription>
+  </Branch>
+	<Branch>
+    <Tag>develop-nvidia</Tag>
+    <TagDescription>latest release + nvidia</TagDescription>
+  </Branch>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/hHaJm3yGy6</Support>
+  <Project>https://github.com/jasongdove/ErsatzTV</Project>
+  <Category>MediaApp:Video</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/ersatztv.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/jasongdove/ErsatzTV/main/artwork/ersatztv-logo.svg</Icon>
+  <Description>Stream custom live channels using your own media</Description>
+  <Overview>Stream custom live channels using your own media</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/jasongdove</DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>host</Network>
+  <Config Name="Host Port for 8409" Target="8409" Default="8409" Mode="tcp" Description="Container Port: 8409" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+</Container>
