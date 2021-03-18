@@ -22,7 +22,7 @@
   </Branch>
   <Branch>
     <Tag>develop-nvidia</Tag>
-    <TagDescription>latest release + nvidia</TagDescription>
+    <TagDescription>develop release + nvidia</TagDescription>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
