@@ -17,7 +17,7 @@
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
   <DonateImg/>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:5004]</WebUI>
   <ExtraParams/>
   <PostArgs/>
   <Network>host</Network>
