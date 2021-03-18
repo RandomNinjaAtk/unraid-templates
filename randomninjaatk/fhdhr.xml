@@ -9,10 +9,10 @@
   <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-fhdhr</Project>
   <Category>MediaApp:Video</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/fhdhr/randomninjaatk/fhdhr.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/fhdhr/randomninjaatk/img/fhdhr.png</Icon>
-  <Description>This application provides an interface between locast.org and Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.</Description>
-  <Overview>This application provides an interface between locast.org and Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.</Overview>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/fhdhr.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/fhdhr.png</Icon>
+  <Description>This application is a Python service provides an interface to take various sources of video and make them accessible to client software, such as Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.</Description>
+  <Overview>This application is a Python service provides an interface to take various sources of video and make them accessible to client software, such as Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.</Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
