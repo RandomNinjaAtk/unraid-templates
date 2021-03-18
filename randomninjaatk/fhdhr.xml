@@ -22,4 +22,8 @@
   <PostArgs/>
   <Network>host</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Origin Plugins" Target="ORIGIN_PLUGINS" Default="" Mode="" Description="Example: locast,plutotv (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Interface Plugins" Target="INTERFACE_PLUGINS" Default="" Mode="" Description="Example: hdhr (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Stream Plugins" Target="STEAM_PLUGINS" Default="" Mode="" Description="Example: vlc (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="EPG Plugins" Target="EPG_PLUGINS" Default="" Mode="" Description="Example: zap2it (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
  </Container>
