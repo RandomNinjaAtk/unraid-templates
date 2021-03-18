@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>True</Beta>
+<Beta>True</Beta>
   <Name>ErsatzTV</Name>
   <Repository>jasongdove/ersatztv</Repository>
   <Registry>https://hub.docker.com/r/jasongdove/ersatztv</Registry>
-	<Branch>
+  <Branch>
     <Tag>latest</Tag>
     <TagDescription>latest release</TagDescription>
   </Branch>
-	<Branch>
+  <Branch>
     <Tag>latest-vaapi</Tag>
     <TagDescription>latest release + vaapi</TagDescription>
   </Branch>
-	<Branch>
+  <Branch>
     <Tag>latest-nvidia</Tag>
     <TagDescription>latest release + nvidia</TagDescription>
   </Branch>
-	<Branch>
+  <Branch>
     <Tag>develop-vaapi</Tag>
     <TagDescription>develop release + vaapi</TagDescription>
   </Branch>
-	<Branch>
+  <Branch>
     <Tag>develop-nvidia</Tag>
     <TagDescription>latest release + nvidia</TagDescription>
   </Branch>
@@ -32,7 +32,9 @@
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/ersatztv.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/ersatztv.png</Icon>
   <Description>Stream custom live channels using your own media</Description>
-  <Overview>Stream custom live channels using your own media</Overview>
+  <Overview>Stream custom live channels using your own media
+        [br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)
+  </Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/jasongdove</DonateLink>
