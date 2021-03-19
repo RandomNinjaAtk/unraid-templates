@@ -27,4 +27,6 @@
   <Config Name="Interface Plugins" Target="INTERFACE_PLUGINS" Default="" Mode="" Description="Example: hdhr (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Stream Plugins" Target="STEAM_PLUGINS" Default="" Mode="" Description="Example: vlc (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="EPG Plugins" Target="EPG_PLUGINS" Default="" Mode="" Description="Example: zap2it (this is a ', ' separated list plugin names)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
  </Container>
