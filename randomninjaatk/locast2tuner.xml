@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>True</Beta>
+  <Beta>False</Beta>
   <Name>locast2tuner</Name>
   <Repository>randomninjaatk/locast2tuner</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/locast2tuner</Registry>
