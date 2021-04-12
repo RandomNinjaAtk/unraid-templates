@@ -28,6 +28,6 @@
   <Network>bridge</Network>
   <Config Name="Host Port for 6077" Target="6077" Default="6077" Mode="tcp" Description="Container Port: 6077" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Locast Username" Target="L2DUSER" Default="" Mode="" Description="locast username" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Locast Password" Target="L2DPASS" Default="" Mode="" Description="locastpassword" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Locast Password" Target="L2DPASS" Default="" Mode="" Description="locast password" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Locast Zip Codes" Target="L2DZIP" Default="" Mode="" Description="override zip codes, format: #####,#####,#####" Type="Variable" Display="always" Required="true" Mask="false"/>
  </Container>
