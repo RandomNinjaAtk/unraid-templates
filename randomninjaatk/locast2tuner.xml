@@ -15,8 +15,8 @@
   <Overview>This application provides an interface between locast.org and Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.
   [br][br][b][span style='color: #E80000;']Donator Account Required![/span][/u][/b][br][br]
   URLS:[br]
-  --Tuner: http://[IP]:[PORT:6077]/tuner.m3u[br]
-  --Guide: http://[IP]:[PORT:6077]/epg.xml
+  --Tuner: http://HOST_IP:PORT/tuner.m3u[br]
+  --Guide: http://HOST_IP:PORT/epg.xml
   </Overview>
   <MyIP/>
   <DonateText/>
