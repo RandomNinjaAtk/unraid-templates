@@ -2,12 +2,12 @@
 <Container version="2">
   <Beta>False</Beta>
   <Name>locast2tuner</Name>
-  <Repository>randomninjaatk/locast2tuner</Repository>
-  <Registry>https://hub.docker.com/r/randomninjaatk/locast2tuner</Registry>
+  <Repository>wouterdebie/locast2tuner</Repository>
+  <Registry>ghcr.io/wouterdebie/locast2tuner-unraid:latest</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/JumQXDc</Support>
-  <Project>https://github.com/RandomNinjaAtk/docker-locast2tuner</Project>
+  <Support>https://github.com/wouterdebie/locast2tuner</Support>
+  <Project>https://github.com/wouterdebie/locast2tuner</Project>
   <Category>MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/locast2tuner.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/locast2tuner.png</Icon>
@@ -17,18 +17,24 @@
   URLS:[br]
   --Tuner: http://HOST_IP:PORT/tuner.m3u[br]
   --Guide: http://HOST_IP:PORT/epg.xml
+  [br][br][b][span style='color: #E80000;']WARNING: LEGACY TEMPLATE UPDATE (08/19/2021)[/span][/u][/b][br]
+  If application is no longer working, then do the following:[br]
+  1. Copy settings to text document[br]
+  2. Uninstall/remove the app from your Unraid system[br]
+  3. Reinstall from Community Applications Store[br]
+  4. Reconfigure using settings from text document (copy paste)
   </Overview>
   <MyIP/>
   <DonateText/>
-  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 6077" Target="6077" Default="6077" Mode="tcp" Description="Container Port: 6077" Type="Port" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Locast Username" Target="L2DUSER" Default="" Mode="" Description="locast username" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Locast Password" Target="L2DPASS" Default="" Mode="" Description="locast password" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Locast Zip Codes" Target="L2DZIP" Default="" Mode="" Description="override zip codes, format: #####,#####,#####" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Multiplexing" Target="multiplex" Default="true" Mode="" Description="true = enabled :: Enables using a single HTTP interface multiplexing all Tuners through one interface for both streaming and EPG." Type="Variable" Display="always" Required="true" Mask="false"/> 
+  <Config Name="Locast Username" Target="l2t_username" Default="" Mode="" Description="locast username" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Locast Password" Target="l2t_password" Default="" Mode="" Description="locast password" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Locast Zip Codes" Target="l2t_override_zipcodes" Default="" Mode="" Description="override zip codes, format: #####,#####,#####" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Multiplexing" Target="l2t_multiplex" Default="true" Mode="" Description="true = enabled :: Enables using a single HTTP interface multiplexing all Tuners through one interface for both streaming and EPG." Type="Variable" Display="always" Required="true" Mask="false"/> 
 </Container>
