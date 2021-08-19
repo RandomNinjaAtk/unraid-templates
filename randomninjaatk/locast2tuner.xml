@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Name>locast2tuner</Name>
   <Repository>ghcr.io/wouterdebie/locast2tuner-unraid:latest</Repository>
-  <Registry>ghcr.io/wouterdebie/locast2tuner-unraid:latest</Registry>
+  <Registry/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/wouterdebie/locast2tuner</Support>
