@@ -2,7 +2,7 @@
 <Container version="2">
   <Beta>False</Beta>
   <Name>locast2tuner</Name>
-  <Repository>wouterdebie/locast2tuner</Repository>
+  <Repository>ghcr.io/wouterdebie/locast2tuner-unraid:latest</Repository>
   <Registry>ghcr.io/wouterdebie/locast2tuner-unraid:latest</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
