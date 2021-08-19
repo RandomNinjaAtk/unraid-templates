@@ -23,6 +23,7 @@
   2. Uninstall/remove the app from your Unraid system[br]
   3. Reinstall from Community Applications Store[br]
   4. Reconfigure using settings from text document (copy/paste)
+  Your Repository, should say: ghcr.io/wouterdebie/locast2tuner
   </Overview>
   <MyIP/>
   <DonateText/>
