@@ -37,5 +37,7 @@
   <Config Name="Locast Username" Target="l2t_username" Default="" Mode="" Description="locast username" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Locast Password" Target="l2t_password" Default="" Mode="" Description="locast password" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Locast Zip Codes" Target="l2t_override_zipcodes" Default="" Mode="" Description="override zip codes, format: #####,#####,#####" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Multiplexing" Target="l2t_multiplex" Default="true" Mode="" Description="true = enabled :: Enables using a single HTTP interface multiplexing all Tuners through one interface for both streaming and EPG." Type="Variable" Display="always" Required="true" Mask="false"/> 
+  <Config Name="Tuner Multiplexing" Target="l2t_multiplex" Default="true" Mode="" Description="true = enabled :: Enables using a single HTTP interface multiplexing all Tuners through one interface for both streaming and EPG." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Tuner Channel Remap" Target="l2t_remap" Default="true" Mode="" Description="true = enabled :: Remaps channels number/order to prevent intermingling channels from multiple zip code locations" Type="Variable" Display="always" Required="true" Mask="false"/>
+  l2t_remap
 </Container>
