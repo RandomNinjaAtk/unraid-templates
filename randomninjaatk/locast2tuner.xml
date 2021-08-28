@@ -17,13 +17,6 @@
   URLS:[br]
   --Tuner: http://HOST_IP:PORT/tuner.m3u[br]
   --Guide: http://HOST_IP:PORT/epg.xml
-  [br][br][b][span style='color: #E80000;']WARNING: LEGACY TEMPLATE UPDATE (08/19/2021)[/span][/u][/b][br]
-  If application is no longer working, then do the following:[br]
-  1. Copy settings to text document[br]
-  2. Uninstall/remove the app from your Unraid system[br]
-  3. Reinstall from Community Applications Store[br]
-  4. Reconfigure using settings from text document (copy/paste)[br][br]
-  Your Repository, should say: ghcr.io/wouterdebie/locast2tuner
   </Overview>
   <MyIP/>
   <DonateText/>
