@@ -7,7 +7,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://discord.gg/JumQXDc</Support>
-  <Project>https://github.com/RandomNinjaAtk/docker-ama</Project>
+  <Project>https://github.com/RandomNinjaAtk/docker-atd</Project>
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/atd.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/ama.png</Icon>
