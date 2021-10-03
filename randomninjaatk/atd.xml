@@ -11,8 +11,8 @@
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/atd.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/ama.png</Icon>
-  <Description>[b][u][span style='color: #E80000;']NOT FOR PUBLIC USE YET...[/span][/u][/b][br][br]Automated Tidal Downloader :: This script will automatically archive music using a popular online DL Client</Description>
-  <Overview>Automated Tidal Downloader  :: This script will automatically archive music using a popular online DL Client</Overview>
+  <Description>Automated Tidal Downloader  :: This script will automatically archive music using a popular online DL Client</Description>
+  <Overview>[b][u][span style='color: #E80000;']NOT FOR PUBLIC USE YET...[/span][/u][/b][br][br]Automated Tidal Downloader :: This script will automatically archive music using a popular online DL Client</Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
