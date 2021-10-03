@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>atd</Name>
+  <Repository>randomninjaatk/atd</Repository>
+  <Registry>https://hub.docker.com/r/randomninjaatk/atd</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/JumQXDc</Support>
+  <Project>https://github.com/RandomNinjaAtk/docker-ama</Project>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/atd.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/ama.png</Icon>
+  <Description>[b][u][span style='color: #E80000;']NOT FOR PUBLIC USE YET...[/span][/u][/b][br][br]Automated Tidal Downloader :: This script will automatically archive music using a popular online DL Client</Description>
+  <Overview>Automated Tidal Downloader  :: This script will automatically archive music using a popular online DL Client</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads-atd" Target="/downloads-atd" Default="/mnt/user" Mode="rw" Description="Container Path for downloads library..." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Enable Automatic Script Start" Target="AutoStart" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Script Interval" Target="ScriptInterval" Default="15m" Mode="" Description="#s or #m or #h or #d :: s = seconds, m = minutes, h = hours, d = days :: Amount of time between each script run, when AUTOSTART is enabled" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Url" Target="LidarrUrl" Default="http://x.x.x.x:8686" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LidarrApiKey" Default="" Mode="" Description="ONLY used if Lidarr List Import is enabled..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
