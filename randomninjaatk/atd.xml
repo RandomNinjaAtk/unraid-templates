@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>False</Beta>
+  <Beta>True</Beta>
   <Name>ATD</Name>
   <Repository>randomninjaatk/atd</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/atd</Registry>
