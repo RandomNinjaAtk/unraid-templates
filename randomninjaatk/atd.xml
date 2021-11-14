@@ -31,6 +31,10 @@
   <Config Name="Lidarr API Key" Target="LidarrApiKey" Default="" Mode="" Description="REQUIRED: Lidarr API Key, enables ATD to connect to Lidarr..." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Script Mode" Target="ScriptMode" Default="both" Mode="" Description="REQUIRED: set to: music or video or both :: both downloads music and videos, the others set the download to the desired media type" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Music Replaygain Tagging" Target="EnableReplayGain" Default="false" Mode="" Description="true = enabled :: Scans and analyzes files to add replaygain tags to song metadata" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="CountryCode" Target="CountryCode" Default="US" Mode="" Description="Set to Tidal Region, same region as your account" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Compilations" Target="Compilations" Default="false" Mode="" Description="Rfalse = disabled; true = enabled :: Enabling this downloads compilations the Artist Appears On..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="FolderPermissions" Target="FolderPermissions" Default="777" Mode="" Description="Folder Permissions (chmod)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="FilePermisssions" Target="FilePermisssions" Default="666" Mode="" Description="File Permissions (chmod)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
