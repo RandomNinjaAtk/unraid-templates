@@ -5,7 +5,7 @@
   <Repository>randomninjaatk/sonarr-sma</Repository>
   <Branch>
     <Tag>latest</Tag>
-    <TagDescription>Sonarr (latest) + SMA + FFMPEG</TagDescription>
+    <TagDescription>Sonarr (develop) + SMA + FFMPEG</TagDescription>
   </Branch>
   <Branch>
     <Tag>develop</Tag>
