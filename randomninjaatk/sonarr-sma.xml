@@ -11,10 +11,6 @@
     <Tag>develop</Tag>
     <TagDescription>Sonarr (develop) + SMA + FFMPEG</TagDescription>
   </Branch>
-  <Branch>
-    <Tag>nightly</Tag>
-    <TagDescription>Sonarr (nightly) + SMA + FFMPEG</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/randomninjaatk/sonarr-sma</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
