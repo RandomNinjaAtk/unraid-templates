@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>RA Rom Processor (raromprocessor)</Name>
+  <Repository>randomninjaatk/raromprocessor</Repository>
+  <Registry>https://hub.docker.com/r/randomninjaatk/raromprocessor</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/JumQXDc</Support>
+  <Project>https://github.com/RandomNinjaAtk/docker-raromprocessor</Project>
+  <Category>Downloaders: MediaApp:Music</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/raromprocessor.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/raromprocessor.png</Icon>
+  <Description>RA Rom Processor (raromprocessor):: This script is used to orgainze/process/verify/dedupe/scrape a ROMs library automatically by matching ROMs to RetroAchievement website Hash database.</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateImg/>
+  <WebUI></WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /cache" Target="/cache" Default="" Mode="rw" Description="cache location for skyscraper." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /input" Target="/input" Default="" Mode="rw" Description=" Place ROMs to be processed in this directory" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="ROMs that have been processed will end up here" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /backup" Target="/backup" Default="" Mode="rw" Description="Processed ROMs are backed up to this directory" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Enable Automatic Script Start" Target="AutoStart" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Script Interval" Target="ScriptInterval" Default="15m" Mode="" Description="#s or #m or #h or #d :: s = seconds, m = minutes, h = hours, d = days :: Amount of time between each script run, when AUTOSTART is enabled" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DeDupe ROM Library" Target="DeDupe" Default="true" Mode="" Description="true = Enabled :: This setting further reduces the final ROMs list per platrom, by removing duplicates with the priority of: USA > Europe > World > Japan, and then by shortest filename when multiples exist" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Screenscraper Account Username" Target="ScreenscraperUsername" Default="" Mode="" Description="Username for https://screenscraper.fr/" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Screenscraper Account Password" Target="ScreenscraperPassword" Default="" Mode="" Description="Password for https://screenscraper.fr/" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
