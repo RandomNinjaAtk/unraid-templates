@@ -8,8 +8,8 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-raromprocessor</Project>
-  <Category>Tools: Utilities</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/raromprocessor.xml</TemplateURL>
+  <Category>Tools: Utilities:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/raromprocessor.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/raromprocessor.png</Icon>
   <Description>RA ROM Processor is a Docker container that is used to orgainze/process/verify/dedupe/scrape a ROMs library automatically by matching ROMs to the RetroAchievement.org website Hash database.</Overview>
   <MyIP/>
