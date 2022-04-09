@@ -21,7 +21,7 @@
   <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-radarr-sma</Project>
   <Category>Downloaders: MediaApp:Video</Category>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/dev/randomninjaatk/radarr-sma.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/radarr-sma.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/radarr.png</Icon>
   <Overview>Radarr - A fork of Sonarr to work with movies à la Couchpotato. This comes bundled with sickbeard_mp4_automator script, that can be found here: https://github.com/mdhiggins/sickbeard_mp4_automator[br][br][b][u][span style='color: #E80000;']Nvidia GPU Use[/span][/u][/b][br]Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and[br] add [b]--runtime=nvidia[/b] to [b]"extra parameters"[/b] (switch on advanced view) and[br]copy your [b]GPU UUID[/b] to [b]NVIDIA_VISIBLE_DEVICES.[/b][br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)</Overview>
   <Description>Radarr - A fork of Sonarr to work with movies à la Couchpotato. This comes bundled with sickbeard_mp4_automator script, that can be found here: https://github.com/mdhiggins/sickbeard_mp4_automator</Description>
