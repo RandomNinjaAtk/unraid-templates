@@ -11,7 +11,7 @@
   <Category>Tools: Utilities:</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/raromprocessor.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/raromprocessor.png</Icon>
-  <Overview>RA ROM Processor is a Docker container that is used to orgainze/process/verify/dedupe/scrape a ROMs library automatically by matching ROMs to the RetroAchievement.org website Hash database.</Overview>
+  <Overview>RA ROM Processor is a Docker container that is used to download/orgainze/process/verify/dedupe/scrape a ROMs library automatically by matching ROMs to the RetroAchievement.org website Hash database.</Overview>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
