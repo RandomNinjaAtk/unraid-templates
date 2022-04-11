@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Beta>False</Beta>
-  <Name>RA Rom Processor (raromprocessor)</Name>
+  <Name>RA-ROM-Processor</Name>
   <Repository>randomninjaatk/raromprocessor</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/raromprocessor</Registry>
   <Shell>bash</Shell>
