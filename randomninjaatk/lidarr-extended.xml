@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-extended.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Music Status:Beta</Category>
   <Name>lidarr-extended</Name>
@@ -8,13 +7,10 @@
   <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-extended</Registry>
-  <Network>bridge</Network>
-  <Privileged>false</Privileged>
+  <TemplateURL>false</TemplateURL>
   <Shell>bash</Shell>
-  <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users.</Overview>
-  <WebUI>http://[IP]:[PORT:8686]</WebUI>
+  <Privileged>false</Privileged>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
-  <Description>Lidarr is a music collection manager for Usenet and BitTorrent users.</Description>
   <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available..&#xD;
 &#xD;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
@@ -28,10 +24,12 @@
 [b]/downloads[/b] : Point to Downloads share[br]&#xD;
 &#xD;
 [b]8686[/b] : The web-interface. [br]</Overview>
+  <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
-  <DonateImg/>
+  <WebUI>http://[IP]:[PORT:8686]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
   <Config Name="Host Port for 8686" Target="8686" Default="8686" Mode="tcp" Description="Container Port: 8686" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /downloads" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
