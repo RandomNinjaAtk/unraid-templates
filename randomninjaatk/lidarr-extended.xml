@@ -14,7 +14,8 @@
   <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users.</Overview>
   <WebUI>http://[IP]:[PORT:8686]</WebUI>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
-  <Description>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available..&#xD;
+  <Description>Lidarr is a music collection manager for Usenet and BitTorrent users.</Description>
+  <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available..&#xD;
 &#xD;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
 &#xD;
@@ -26,51 +27,18 @@
 &#xD;
 [b]/downloads[/b] : Point to Downloads share[br]&#xD;
 &#xD;
-[b]8686[/b] : The web-interface. [br]</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8686</HostPort>
-        <ContainerPort>8686</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/downloads</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/music</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/music-videos</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
-    </Variable>
-  </Environment>
+[b]8686[/b] : The web-interface. [br]</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <DonateImg/>
+  <Config Name="Host Port for 7878" Target="7878" Default="7878" Mode="tcp" Description="Container Port: 7878" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /music" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /music-videos" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Enable Automatic Script Start" Target="autoStart" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Music Download Client ARL Token" Target="arlToken" Default="" Mode="" Description="User token for deemix client" Type="Variable" Display="always" Required="true" Mask="false"/>
-<DonateText>Donations</DonateText>
-<DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
