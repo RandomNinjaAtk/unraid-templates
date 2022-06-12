@@ -69,6 +69,7 @@
       <Name>PGID</Name>
     </Variable>
   </Environment>
+  <Config Name="Enable Automatic Script Start" Target="autoStart" Default="true" Mode="" Description="true = Enabled :: Runs script automatically on startup" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Music Download Client ARL Token" Target="arlToken" Default="" Mode="" Description="User token for deemix client" Type="Variable" Display="always" Required="true" Mask="false"/>
 <DonateText>Donations</DonateText>
 <DonateLink>https://github.com/sponsors/RandomNinjaAtk</DonateLink>
