@@ -5,7 +5,7 @@
   <Category>Downloaders: MediaApp:Music Status:Beta</Category>
   <Name>lidarr-extended</Name>
   <Support>https://discord.gg/JumQXDc</Support>
-  <Project>https://github.com/lidarr/Lidarr</Project>
+  <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-extended</Registry>
   <Network>bridge</Network>
