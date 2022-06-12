@@ -7,7 +7,7 @@
   <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-extended</Registry>
-  <TemplateURL>false</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-extended.xml</TemplateURL>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
