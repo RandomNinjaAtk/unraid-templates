@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-extended.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Music Status:Beta</Category>
-  <Name>lidarr</Name>
+  <Name>lidarr-extended</Name>
   <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/lidarr/Lidarr</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
