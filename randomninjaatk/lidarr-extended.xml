@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>True</Beta>
-  <Category>Downloaders: MediaApp:Music</Category>
+  <Category>Downloaders: MediaApp:Music Status:Beta</Category>
   <Name>lidarr-extended</Name>
   <Support>https://discord.gg/JumQXDc</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-extended</Registry>
-  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/lidarr-extended.xml</TemplateURL>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/lidarr.png</Icon>
