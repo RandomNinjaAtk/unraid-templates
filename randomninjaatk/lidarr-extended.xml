@@ -43,8 +43,8 @@
   <Config Name="Add Deezer Top Track Artists" Target="addDeezerTopTrackArtists" Default="false" Mode="" Description="true = enabled :: Enabling this will enable the extended script to automatically add artists that are on the Deezer Top Track Chart to your existing Lidarr instance" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Add Deezer Top Limit" Target="topLimit" Default="10" Mode="" Description="This setting controls the amount of Top Artist (Albums/Tracks/Artists) to add to Lidarr from Deezer" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Add Deezer Related Artists" Target="addRelatedArtists" Default="false" Mode="" Description="true = enabled :: WARNING !!! WARNING !!! Enabling this can cause an endless loop of additional artists.... Enabling this will enable the extended script to automatically add artists that are related to your existing Lidarr artists from Deezer" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Plex Url" Target="plexUrl" Default="http://x.x.x.x:32400" Mode="" Description="ONLY used if PlexNotify.bash is used..." Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Plex Token" Target="plexToken" Default="" Mode="" Description="ONLY used if PlexNotify.bash is used..." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Plex Url" Target="plexUrl" Default="http://x.x.x.x:32400" Mode="" Description="ONLY used if PlexNotify.bash is used..." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Plex Token" Target="plexToken" Default="" Mode="" Description="ONLY used if PlexNotify.bash is used..." Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
 </Container>
