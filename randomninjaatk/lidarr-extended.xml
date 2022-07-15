@@ -3,7 +3,7 @@
   <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Music Status:Beta</Category>
   <Name>lidarr-extended</Name>
-  <Support>https://discord.gg/JumQXDc</Support>
+  <Support>https://github.com/RandomNinjaAtk/docker-lidarr-extended/discussions</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
   <Repository>randomninjaatk/lidarr-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/lidarr-extended</Registry>
