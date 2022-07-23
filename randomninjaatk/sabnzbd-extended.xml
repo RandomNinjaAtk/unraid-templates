@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>True</Beta>
+  <Beta>true</Beta>
   <Name>sabnzbd-extended</Name>
   <Repository>randomninjaatk/sabnzbd-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/sabnzbd-extended</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/JumQXDc</Support>
+  <Support>https://github.com/RandomNinjaAtk/docker-sabnzbd-extended/discussions</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-sabnzbd-extended</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/sabnzbd-extended.xml</TemplateURL>
