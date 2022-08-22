@@ -14,7 +14,7 @@
   <Description>Radarr - A fork of Sonarr to work with movies à la Couchpotato.</Description>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:7878]</WebUI>
-  <ExtraParams>--log-opt max-size=50m</ExtraParams>
+  <ExtraParams>--cpus=1 --memory=1G --log-opt max-size=50m</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 7878" Target="7878" Default="7878" Mode="tcp" Description="Container Port: 7878" Type="Port" Display="always-hide" Required="true" Mask="false"/>
