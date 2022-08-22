@@ -26,7 +26,7 @@
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:8686]</WebUI>
-  <ExtraParams/>
+  <ExtraParams>--log-opt max-size=50m</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 8686" Target="8686" Default="8686" Mode="tcp" Description="Container Port: 8686" Type="Port" Display="always-hide" Required="true" Mask="false"/>
