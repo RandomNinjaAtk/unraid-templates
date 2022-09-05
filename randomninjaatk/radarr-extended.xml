@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
   <Name>radarr-extended</Name>
   <Support>https://github.com/RandomNinjaAtk/docker-radarr-extended/discussions</Support>
