@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>true</Beta>
+  <Beta>False</Beta>
   <Name>sabnzbd-extended</Name>
   <Repository>randomninjaatk/sabnzbd-extended</Repository>
   <Registry>https://hub.docker.com/r/randomninjaatk/sabnzbd-extended</Registry>
