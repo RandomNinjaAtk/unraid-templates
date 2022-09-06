@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Category>Downloaders: MediaApp:Music Status:Beta</Category>
+  <Category>Downloaders: MediaApp:Music</Category>
   <Name>lidarr-extended</Name>
   <Support>https://github.com/RandomNinjaAtk/docker-lidarr-extended/discussions</Support>
   <Project>https://github.com/RandomNinjaAtk/docker-lidarr-extended</Project>
