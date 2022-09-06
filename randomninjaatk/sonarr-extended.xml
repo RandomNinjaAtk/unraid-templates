@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
   <Name>sonarr-extended</Name>
   <Support>https://github.com/RandomNinjaAtk/docker-sonarr-extended/discussions</Support>
