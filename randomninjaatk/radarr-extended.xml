@@ -13,7 +13,7 @@
   <Description>Radarr Extended: Radarr (Develop Branch) with custom scripts to provide aditional functionality...</Description>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:7878]</WebUI>
-  <ExtraParams>--cpus=1 --memory=1G --log-opt max-size=50m</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 7878" Target="7878" Default="7878" Mode="tcp" Description="Container Port: 7878" Type="Port" Display="always-hide" Required="true" Mask="false"/>
