@@ -18,7 +18,6 @@
   <Network>bridge</Network>
   <Config Name="Host Port for 8989" Target="8989" Default="8989" Mode="tcp" Description="Container Port: 8989" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /storage" Target="/storage" Default="/mnt/user" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Enable AutoConfig Script" Target="enableAutoConfig" Default="true" Mode="" Description="true = enabled :: Enables AutoConfig script to run after startup and configure Radarr settings automatically using best practices..." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Enable Recyclarr Script" Target="enableRecyclarr" Default="true" Mode="" Description="true = enabled :: Enables Recyclarr to autoconfigure Radarr with optimized profiles and CF's from Trash Guides" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Enable Queue Cleaner Script" Target="enableQueueCleaner" Default="true" Mode="" Description="true = enabled :: Enables QueueCleaner Script that automatically removes stuck downloads that cannot be automatically imported on a 15 minute interval" Type="Variable" Display="always" Required="true" Mask="false"/>
