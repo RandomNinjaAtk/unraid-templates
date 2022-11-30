@@ -19,7 +19,7 @@
 &#xD;
 [b]/music-videos[/b] : Point to Music Videos share[br]&#xD;
 &#xD;
-[b]/downloads[/b] : Point to Downloads share[br]&#xD;
+[b]//downloads-lidarr-extended[/b] : Point to Extended Scripts Download share/location[br]&#xD;
 &#xD;
 [b]8686[/b] : The web-interface. [br]</Overview>
   <Description/>
@@ -51,7 +51,7 @@
   <Config Name="Add Deezer Top Ablum Artists" Target="addDeezerTopAlbumArtists" Default="false" Mode="" Description="true = enabled :: Enabling this will enable the extended script to automatically add artists that are on the Deezer Top Ablum Chart to your existing Lidarr instance" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Add Deezer Top Track Artists" Target="addDeezerTopTrackArtists" Default="false" Mode="" Description="true = enabled :: Enabling this will enable the extended script to automatically add artists that are on the Deezer Top Track Chart to your existing Lidarr instance" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Deezer Top Limit" Target="topLimit" Default="10" Mode="" Description="This setting controls the amount of Top Artist (Albums/Tracks/Artists) to add to Lidarr from Deezer" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Add Deezer Related Artists" Target="addRelatedArtists" Default="false" Mode="" Description="true = enabled :: WARNING !!! WARNING !!! Enabling this can cause an endless loop of additional artists.... Enabling this will enable the extended script to automatically add artists that are related to your existing Lidarr artists from Tidal & Deezer" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Add Deezer Related Artists" Target="addRelatedArtists" Default="false" Mode="" Description="true = enabled :: WARNING !!! WARNING !!! Enabling this can cause an endless loop of additional artists.... Enabling this will enable the extended script to automatically add artists that are related to your existing Lidarr artists from Tidal and Deezer" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Number of Deezer Related Artists per Lidarr Artist to add" Target="numberOfRelatedArtistsToAddPerArtist" Default="5" Mode="" Description="1-20 :: This will limit the number of related artists to add per artist in your library :: Minimum is 1, Maximum is 20" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Add Music Video Featured Arttists" Target="addFeaturedVideoArtists" Default="false" Mode="" Description="true = enabled :: WARNING !!! WARNING !!! Enabling this can cause an endless loop of additional artists.... Enabling this will enable the extended Video script to automatically add Music Video Featured Artists to your existing Lidarr artists from IMVDB" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Lidarr Search For Missing" Target="lidarrSearchForMissing" Default="true" Mode="" Description="true = enabled :: When artists are added, search for them using Lidarr's built in functionality" Type="Variable" Display="always" Required="true" Mask="false"/>
