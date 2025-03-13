@@ -6,7 +6,7 @@
   <Registry>ghcr.io/chimeraos/chimera:latest</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/ChimeraOS/chimera</</Support>
+  <Support>https://github.com/ChimeraOS/chimera</Support>
   <Project>https://github.com/ChimeraOS/chimera</Project>
   <Category>Other</Category>
   <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/chimera.xml</TemplateURL>
