@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Name>Chimera</Name>
+  <Repository>chimeraos/chimera</Repository>
+  <Registry>ghcr.io/chimeraos/chimera:latest</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ChimeraOS/chimera</</Support>
+  <Project>https://github.com/ChimeraOS/chimera</Project>
+  <Category>Other</Category>
+  <TemplateURL>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/chimera.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/chimera.png</Icon>
+  <Description>Chimera is a web app for remotely installing non-Steam software to your Linux based couch gaming system. It was primarily developed for ChimeraOS.</Description>
+  <Overview>Chimera is a web app for remotely installing non-Steam software to your Linux based couch gaming system. It was primarily developed for ChimeraOS.</Overview>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink></DonateLink>
+  <DonateImg/>
+  <WebUI>http://[IP]:[PORT:8844]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>host</Network>
+  <Config Name="Host Path for /data/chimera" Target="/data/chimera" Default="" Mode="rw" Description="Container Path: /data/chimera" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+</Container>
