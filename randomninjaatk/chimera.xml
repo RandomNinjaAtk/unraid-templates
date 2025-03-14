@@ -2,8 +2,8 @@
 <Container version="2">
   <Beta>True</Beta>
   <Name>Chimera</Name>
-  <Repository>chimeraos/chimera</Repository>
-  <Registry>ghcr.io/chimeraos/chimera:latest</Registry>
+  <Repository>ghcr.io/chimeraos/chimera:latest</Repository>
+  <Registry>https://github.com/ChimeraOS/chimera</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/ChimeraOS/chimera</Support>
